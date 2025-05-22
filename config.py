@@ -8,11 +8,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("24396368", None))
+API_HASH = getenv("62d0c34f7c31d494290e25b81af96868", None)
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("7555934891:AAEoFInuGTnwJz_1-nypfoN5dTkWAFgLP6Q", None)
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -26,7 +26,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "5016109398"))
+OWNER_ID = int(getenv("OWNER_ID", "7816247238"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/learning_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+s_X6ZlLfMBg5YWJl")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+kNzAA5CE6KI3YWY1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -74,11 +74,11 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session
-STRING1 = getenv("STRING_SESSION",  None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("1BVtsOJwBuzMs-NNSPzCCxJfYQrr37IhFv3FnPGZeI1N6keCYoeJ19ku9xMcEU7EYy3zRalh_atOXgeAvRCLl-X4Jw7n4EeDtGPLDvACgUfELGDmIUCnAPkHUrkZuXFd_7oDGi9cfXx20nuNPmlhv-yMojlYYTiZ51esNKjG88plOxA4evi8nMIjZm20duf9hagoYb6vUta4Ee29fSaM-2kFybxvdrfwQt2I5RLe719zKo1EmvWINV6EwCAVRZ0-9nkbmGFhCs8mQ_AoiNDR0N0p1Wp86L0dZAVV95mebPkDEamx2Ct1uz8qie4ZbKFUhayC7TiFl2JDjjEpGUtzj3QgfAJYAEH0=",  None)
+STRING2 = getenv("1BVtsOJwBuzMs-NNSPzCCxJfYQrr37IhFv3FnPGZeI1N6keCYoeJ19ku9xMcEU7EYy3zRalh_atOXgeAvRCLl-X4Jw7n4EeDtGPLDvACgUfELGDmIUCnAPkHUrkZuXFd_7oDGi9cfXx20nuNPmlhv-yMojlYYTiZ51esNKjG88plOxA4evi8nMIjZm20duf9hagoYb6vUta4Ee29fSaM-2kFybxvdrfwQt2I5RLe719zKo1EmvWINV6EwCAVRZ0-9nkbmGFhCs8mQ_AoiNDR0N0p1Wp86L0dZAVV95mebPkDEamx2Ct1uz8qie4ZbKFUhayC7TiFl2JDjjEpGUtzj3QgfAJYAEH0=", None)
+STRING3 = getenv("1BVtsOJwBuzMs-NNSPzCCxJfYQrr37IhFv3FnPGZeI1N6keCYoeJ19ku9xMcEU7EYy3zRalh_atOXgeAvRCLl-X4Jw7n4EeDtGPLDvACgUfELGDmIUCnAPkHUrkZuXFd_7oDGi9cfXx20nuNPmlhv-yMojlYYTiZ51esNKjG88plOxA4evi8nMIjZm20duf9hagoYb6vUta4Ee29fSaM-2kFybxvdrfwQt2I5RLe719zKo1EmvWINV6EwCAVRZ0-9nkbmGFhCs8mQ_AoiNDR0N0p1Wp86L0dZAVV95mebPkDEamx2Ct1uz8qie4ZbKFUhayC7TiFl2JDjjEpGUtzj3QgfAJYAEH0=", None)
+STRING4 = getenv("1BVtsOJwBuzMs-NNSPzCCxJfYQrr37IhFv3FnPGZeI1N6keCYoeJ19ku9xMcEU7EYy3zRalh_atOXgeAvRCLl-X4Jw7n4EeDtGPLDvACgUfELGDmIUCnAPkHUrkZuXFd_7oDGi9cfXx20nuNPmlhv-yMojlYYTiZ51esNKjG88plOxA4evi8nMIjZm20duf9hagoYb6vUta4Ee29fSaM-2kFybxvdrfwQt2I5RLe719zKo1EmvWINV6EwCAVRZ0-9nkbmGFhCs8mQ_AoiNDR0N0p1Wp86L0dZAVV95mebPkDEamx2Ct1uz8qie4ZbKFUhayC7TiFl2JDjjEpGUtzj3QgfAJYAEH0=", None)
+STRING5 = getenv("1BVtsOJwBuzMs-NNSPzCCxJfYQrr37IhFv3FnPGZeI1N6keCYoeJ19ku9xMcEU7EYy3zRalh_atOXgeAvRCLl-X4Jw7n4EeDtGPLDvACgUfELGDmIUCnAPkHUrkZuXFd_7oDGi9cfXx20nuNPmlhv-yMojlYYTiZ51esNKjG88plOxA4evi8nMIjZm20duf9hagoYb6vUta4Ee29fSaM-2kFybxvdrfwQt2I5RLe719zKo1EmvWINV6EwCAVRZ0-9nkbmGFhCs8mQ_AoiNDR0N0p1Wp86L0dZAVV95mebPkDEamx2Ct1uz8qie4ZbKFUhayC7TiFl2JDjjEpGUtzj3QgfAJYAEH0=", None)
 
 
 BANNED_USERS = filters.user()
@@ -90,21 +90,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/62c76ac2095332a0ede75.jpg"
+    "START_IMG_URL", "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/4f59fb748e1990acfa297.jpg"
+    "PING_IMG_URL", "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/14eb59ea7d31229d8d751.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/4310ea5f523520b2b765b.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/923c1faac33d8c70335dc.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6c66f8b192532fe758e82.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/ebc4dc6357be06e08a3ed.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/d339f390ec168c19879c6.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ee0cd53ab73f08f4a3627.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/5f9fb5bba66021c782d96.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/affe0afec5c7ad63676a4.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/3c446e8dee78ed0ca62ff.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
+STATS_IMG_URL = "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
+STREAM_IMG_URL = "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/ac73ebd347c9bf52fd091-25a0a0dd0d72daf53d.jpg"
 
 
 def time_to_seconds(time):
